@@ -2,11 +2,15 @@
   <div>
     <DestCard v-for = "item in items" :key = "items.name" :item="item"/>
   </div>
+  <div>
+    <ShoppingCart v-for = "item in items" :key = "items.name" :item="item"/>
+  </div>
+
 </template>
 
 <script setup>
 import DestCard from '@/components/DestCard.vue';
-
+import ShoppingCart from '@/components/ShoppingCart.vue';
 const items = [
   {
     name: "Sushi Rice",
