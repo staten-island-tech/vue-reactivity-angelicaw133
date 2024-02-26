@@ -3,15 +3,19 @@
         <h2>{{ item.name }}</h2>
         <img :src="item.image" alt="">
         <h3>{{ "$" + item.price }}</h3>
-        <button>Add to Cart</button>
-
+        <button @click="increment">Add to Cart</button>
++
     </div>
 </template>
 
 <script setup>
+import {ref} from "vue";
 const props = defineProps({
     item : Object
 })
+const clicked = ref(0)
+function increment(){
+}
 </script>
 
 <style scoped>
