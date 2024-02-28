@@ -4,18 +4,12 @@
         <img :src="item.image" alt="">
         <h3>{{ "$" + item.price }}</h3>
         <button @click="increment">Add to Cart</button>
-+
+
     </div>
 </template>
 
 <script setup>
-import {ref} from "vue";
-const props = defineProps({
-    item : Object
-})
-const clicked = ref(0)
-function increment(){
-}
+
 </script>
 
 <style scoped>
@@ -28,7 +22,7 @@ function increment(){
 img {
     display: block;
     height: 25vh;
-  padding: 1rem;
+    padding: 1rem;
 }
 button  {
     margin: 1rem;
