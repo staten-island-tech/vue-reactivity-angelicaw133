@@ -3,20 +3,22 @@
         <h2>{{ item.name }}</h2>
         <img :src="item.image" alt="">
         <h3>{{ "$" + item.price }}</h3>
-        <button @click="counter++">Add to Cart</button>
+        <button @click="add(item)">Add to Cart</button>
         
 
     </div>
 </template>
 
 <script setup>
-import { ref } from 'vue'
-const counter_ = ref(0)
+function add(cart, item)
+{ cart.push(item);
+}
+
 const props = defineProps({
     item : Object
     
 })
-console.log(counter_)
+
 
 
 </script>
