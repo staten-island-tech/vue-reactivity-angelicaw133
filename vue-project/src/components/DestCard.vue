@@ -10,15 +10,16 @@
 </template>
 
 <script setup>
-function add(cart, item)
-{ cart.push(item);
+import {store} from '../store'
+function add(item)
+{ store.cart.push(item);
+    console.log(store)
 }
 
 const props = defineProps({
     item : Object
     
 })
-
 
 
 </script>
