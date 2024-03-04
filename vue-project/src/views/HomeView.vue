@@ -1,18 +1,17 @@
 <template>
+  <h1>Pick Your Poke Bowl Items</h1>
   <div>
     <DestCard v-for = "item in items" :key = "items.name" :item="item"/>
   </div>
   <div>
-    <ShoppingCart v-for = "item in items" :key = "items.name" :item="item"/>
-  </div>
-<div>
-  <Checkout :cart="cart"/>
+
+
+  <ShoppingCart :cart="cart"/>
 </div>
 </template>
 
 <script setup>
 import DestCard from '@/components/DestCard.vue';
-import ShoppingCart from '@/views/ShoppingCart.vue';
 const items = [
   {
     name: "Sushi Rice",
