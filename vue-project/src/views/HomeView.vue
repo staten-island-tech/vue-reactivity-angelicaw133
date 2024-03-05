@@ -12,6 +12,7 @@
 
 <script setup>
 import DestCard from '@/components/DestCard.vue';
+import ShoppingCart from './ShoppingCart.vue';
 const items = [
   {
     name: "Sushi Rice",

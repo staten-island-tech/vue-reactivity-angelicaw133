@@ -1,18 +1,8 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
 </script>
 
 <template>
-
-    <div class="wrapper">
-
-      <nav>
-        <RouterLink tag= "smth"to="/">Pick Toppings</RouterLink>
-        <div></div>
-        <RouterLink tag = "smth"to="/about">Shopping Cart</RouterLink>
-      </nav>
-    </div>
- 
 
   <RouterView />
 </template>
