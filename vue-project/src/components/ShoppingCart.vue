@@ -1,9 +1,7 @@
 <template>
     <div class="shopping">
         <h1>In Cart</h1>
-        <p>Count is: {{ counter }}</p>
-    </div>       
-
+    </div>
 
 </template>
 
@@ -11,7 +9,8 @@
 const props = defineProps({
     Shopping : Object
 })
-import counter from './DestCard.vue'
+
+
 </script>
 
 <style scoped>
