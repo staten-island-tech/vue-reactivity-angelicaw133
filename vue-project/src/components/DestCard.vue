@@ -11,8 +11,8 @@
 
 <script setup>
 import checkout from '@/views/ShoppingCart.vue'
-function add(item) {
-    checkout.cart.push(item);
+function add(item_) {
+    checkout.cart.push(item_);
 }
 const props = defineProps({
     item : Object
