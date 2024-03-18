@@ -5,9 +5,7 @@
   <div>
     <ShoppingCart v-for = "item in items" :key = "items.name" :item="item"/>
   </div>
-<div>
-  <Checkout :cart="cart"/>
-</div>
+
 </template>
 
 <script setup>
