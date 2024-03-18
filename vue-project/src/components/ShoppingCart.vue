@@ -9,8 +9,6 @@
 const props = defineProps({
     Shopping : Object
 })
-
-
 </script>
 
 <style scoped>
