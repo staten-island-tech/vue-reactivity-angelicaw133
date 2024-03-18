@@ -13,6 +13,7 @@
 import checkout from '@/views/ShoppingCart.vue'
 function add(item_) {
     checkout.cart.push(item_);
+    console.log(checkout+"");
 }
 const props = defineProps({
     item : Object
@@ -28,9 +29,6 @@ const props = defineProps({
 	display: flex;
 	align-items: center;
  	flex-wrap: wrap;
-    flex-direction: row;
-    width: 100vw;
-    text-align: center;
 }
 img {
     display: block;
