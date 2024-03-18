@@ -45,6 +45,18 @@ const items = [
     image: "https://www.blueworldseafood.com/wp-content/uploads/2021/12/121149-092-e1641475629234.png",
   },
   {
+    name: "Spicy Salmon",
+    price: "0.70",
+    catgory: "meat",
+    image: "https://www.sir-edwards.fr/wp-content/uploads/2016/03/cubes-de-saumon-1024x655.png",
+  },
+  {
+    name: "Spicy Ahi Tuna",
+    price: "0.70",
+    catgory: "meat",
+    image: "https://www.blueworldseafood.com/wp-content/uploads/2021/12/121149-092-e1641475629234.png",
+  },
+  {
     name: "Shrimp",
     price: "0.70",
     catgory: "meat",
