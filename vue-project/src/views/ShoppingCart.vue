@@ -2,13 +2,14 @@
   <div class="shopping">
     <h1>Shopping Cart</h1>
   </div>
-  <div v-for="(ingredients) in checkout.cart":key="ingredients.name">
+  <!-- <div v-for="(ingredients) in checkout.cart":key="ingredients.name">
   <h2>{{ ingredient.name }}</h2>
-  </div>
+  </div> -->
 </template>
 <script setup>
-import {checkout} from '@/stores/CheckOut'
+const checkout = [
 
+];
 const props = defineProps({
     cart: Array
 })
@@ -35,9 +36,8 @@ h1 {
 	display: flex;
 	align-items: center;
  	flex-wrap: wrap;
-  width:30vw;
+  width: 100%;
   text-align: center;
-  color: bisque;
 }
 img {
     display: block;

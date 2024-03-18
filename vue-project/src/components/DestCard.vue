@@ -10,12 +10,13 @@
 </template>
 
 <script setup>
-import {checkout} from '@/stores/CheckOut'
+import checkout from '@/views/ShoppingCart.vue'
 function add(item) {
     checkout.cart.push(item);
 }
 const props = defineProps({
     item : Object
+    
 })
 
 
