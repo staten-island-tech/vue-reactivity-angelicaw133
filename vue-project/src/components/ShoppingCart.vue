@@ -4,6 +4,7 @@
         <p>Count is: {{ counter }}</p>
     </div>       
 
+
 </template>
 
 <script setup>
