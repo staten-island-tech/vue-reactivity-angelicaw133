@@ -4,19 +4,18 @@
         <img :src="item.image" alt="">
         <h3>{{ "$" + item.price }}</h3>
         <button @click="counter++">Add to Cart</button>
-        
+        <p>Count is: {{ counter }}</p>
 
     </div>
 </template>
 
 <script setup>
-import { ref } from 'vue'
-const counter_ = ref(0)
+const counter = ref(0)
 const props = defineProps({
     item : Object
     
 })
-console.log(counter_)
+import { ref } from 'vue'
 
 
 </script>

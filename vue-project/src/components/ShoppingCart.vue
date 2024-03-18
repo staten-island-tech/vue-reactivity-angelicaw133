@@ -1,16 +1,16 @@
 <template>
     <div class="shopping">
         <h1>In Cart</h1>
-        <p> class = "item_number">Count is: {{ counter_ }}</p>
-
+        <p>Count is: {{ counter }}</p>
     </div>       
 
 </template>
 
 <script setup>
-import {ref} from 'vue'
-import counter_ from './DestCard.vue'
-// import counter from './DestCard.vue'
+const props = defineProps({
+    Shopping : Object
+})
+import counter from './DestCard.vue'
 </script>
 
 <style scoped>
