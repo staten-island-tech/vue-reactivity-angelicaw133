@@ -8,10 +8,6 @@
 </template>
 
 <script setup>
-const checkout = [
-
-];
-console.log(checkout);
 const props = defineProps({
     cart: Array
 })
