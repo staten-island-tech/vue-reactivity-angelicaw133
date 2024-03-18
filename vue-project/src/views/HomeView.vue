@@ -12,7 +12,7 @@
 
 <script setup>
 import DestCard from '@/components/DestCard.vue';
-import ShoppingCart from '@/views/ShoppingCart.vue';
+import ShoppingCart from '@/components/ShoppingCart.vue';
 const items = [
   {
     name: "Sushi Rice",
@@ -123,8 +123,6 @@ const items = [
     image: "https://foodconnection-shop.de/WebRoot/Store28/Shops/41cdaff9-d12c-4380-8bb5-14183a0ad0af/55FE/FC6F/AE51/8F21/C119/0A48/3572/726A/sushi_algen_premium_jp1044_ml.png",
   },
 ]
-
-
 </script>
 
 <style scoped>

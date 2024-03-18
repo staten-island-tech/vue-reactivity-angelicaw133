@@ -1,24 +1,24 @@
 <template>
-  <div class="shopping">
-    <h1>Shopping Cart</h1>
-  </div>
+    <div class="shopping">
+        <h1>In Cart</h1>
+     
+
+    </div>       
+
 </template>
+
 <script setup>
 const checkout = [
 
 ];
+console.log(checkout);
 const props = defineProps({
     cart: Array
 })
 </script>
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
+
+<style scoped>
+
 h1 {
     text-align: center;
     font-size: 3rem;
